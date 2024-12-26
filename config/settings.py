@@ -12,7 +12,7 @@ SECRET_KEY = 'django-insecure-(&h2=os$kbubfzjtsq7i_nb7^fk$b_a5cmdmm6i=6(0xplue_@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["backend-connect-management-system.onrender.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["ideasystem.onrender.com", "127.0.0.1", "localhost"]
 
 # Application definition
 
@@ -113,8 +113,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-  
-    "https://mellow-trifle-99c941.netlify.app"
+    "http://localhost:3000",
+    "https://starlit-meerkat-2390af.netlify.app",
+    "https://mellifluous-hotteok-268ed8.netlify.app",
 ]
 
 AUTH_USER_MODEL = 'core.User'
